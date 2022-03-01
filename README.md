@@ -10,3 +10,7 @@
 - Cég története
 - Játék elődje, mobilos változat
 - Játék leirás
+
+# Start Page
+-Játék alapjai
+-Képek 
