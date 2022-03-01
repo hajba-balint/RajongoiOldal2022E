@@ -20,3 +20,8 @@
 -Értékelés
 -Item Shop hogy tetszik
 -Javascript használata
+
+# E-sport
+-Csapatok
+-Népszerűség
+-Múltbeli események
