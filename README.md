@@ -1,4 +1,5 @@
 # RajongoiOldal2022E
+-Rajongás tárgya: Rocket League
 
 # Névjegy
 - Bootstrap reszponzív rács kialakítása
@@ -14,3 +15,8 @@
 # Start Page
 -Játék alapjai
 -Képek 
+
+# Űrlap
+-Értékelés
+-Item Shop hogy tetszik
+-Javascript használata
