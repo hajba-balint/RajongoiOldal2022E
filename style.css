@@ -1,16 +1,14 @@
 body{
-    background-image: url('kepek/esportwin.jpg')
+    
 }
-
 .container{
     margin-top: 1%;
     margin-bottom: 1%;
     opacity: 1;
     text-shadow: 2px 2px 5px red;
-    box-shadow: 2px 2px 5px;
-    
 }
-.card:hover{
+
+*.card:hover{
     background-color: darkgrey;
 }
 .card-title{
@@ -32,3 +30,6 @@ body{
     color: white;
     margin-left: 1%;
 }
+
+
+
