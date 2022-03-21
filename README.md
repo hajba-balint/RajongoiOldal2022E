@@ -5,7 +5,7 @@
 - Bootstrap reszponzív rács kialakítása
 - Képeket a tagokról belehelyezni a rácsba
 - Iskolai e-mail címet belehelyezni a rácsba
-- Tag által végzett munka leírása
+- Tag által végzett munkák leírása
 
 # Cég és Játék
 - Cég története
