@@ -1,3 +1,6 @@
-    var rand = '1';
-    $(".arandomstring").attr("o1.1", rand);
-    console.log("rand");
+      function valueadder(){
+       var test = document.getElementById('o11').innerHTML = "(3)";
+   }
+   function replacer() {
+    location.replace("urlap2.html");
+   }
