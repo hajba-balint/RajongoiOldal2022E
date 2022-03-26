@@ -80,24 +80,25 @@ p {
   cursor: default;
 }
 
-.rlkep {
-  background-image: url("/images/rlkep8.png");
+.headerpic {
   height: 800px;
   background-attachment: scroll;
   background-size: cover;
   color: white;
   text-align: center;
-  background-position: center center;
+  background-position: center;
+}
+
+.rlkep {
+  background-image: url("/images/rlkep8.png");
 }
 
 .rlkep2 {
   background-image: url("/images/rlkep0.jpg");
-  height: 800px;
-  background-attachment: scroll;
-  background-size: cover;
-  color: white;
-  text-align: center;
-  background-position: center center;
+}
+
+.rlkep3 {
+  background-image: url("/images/rlkep6.jpg");
 }
 
 .container-fluid {
@@ -256,7 +257,7 @@ ul li {
   .play {
     padding: 10px;
   }
-  .rlkep {
+  .headerpic {
     height: 600px;
   }
   .fejlec {
