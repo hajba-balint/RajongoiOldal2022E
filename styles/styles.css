@@ -1,0 +1,277 @@
+body {
+  font-family: Montserrat;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+p {
+  color: rgb(54, 54, 54);
+  padding: 10px 80px 10px 90px;
+}
+
+#cim {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#also {
+  font-size: 25px;
+  text-align: center;
+}
+
+#hatter {
+  margin: auto;
+}
+
+.dot {
+  margin-bottom: 50px;
+  font-size: 100px;
+  text-align: center !important;
+  cursor: default;
+}
+
+h1 {
+  background-color: rgb(224, 224, 224);
+  margin: 50px 20vw 30px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.nav-link {
+  font-size: 20px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.nav-link:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.active {
+  background-color: rgba(230, 230, 230);
+  cursor: pointer;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.fejlec {
+  margin: auto;
+  margin-top: 330px;
+  text-align: center;
+}
+
+.fejlec p {
+  color: white;
+  text-shadow: 0 0 2px rgb(54, 54, 54), 0 0 2px rgb(54, 54, 54),
+    0 0 2px rgb(54, 54, 54), 0 0 2px rgb(54, 54, 54), 0 0 2px rgb(54, 54, 54);
+  cursor: default;
+}
+
+.rlkep {
+  background-image: url("/images/rlkep8.png");
+  height: 800px;
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  background-position: center center;
+}
+
+.rlkep2 {
+  background-image: url("/images/rlkep0.jpg");
+  height: 800px;
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  background-position: center center;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.info {
+  padding: 0 20px;
+  text-decoration: none;
+  color: rgb(42, 147, 218);
+  transition: color 0.15s ease-in;
+}
+
+.info:hover {
+  color: rgb(46, 120, 190);
+}
+
+.play {
+  color: rgb(230, 230, 230);
+  padding: 15px;
+  border-radius: 25px;
+  background-color: rgb(49, 155, 255);
+  transition: color 0.1s ease-in;
+  transition: background-color 0.1s ease-in;
+}
+
+.play:hover {
+  background-color: rgb(88, 168, 243);
+  color: rgb(248, 248, 248);
+}
+
+.playp {
+  font-size: 25px;
+  text-align: center;
+  margin: 50px auto 10px;
+}
+
+#RLlogo {
+  height: 300px;
+  float: right;
+  padding: 0px;
+  margin: 10px 100px;
+}
+
+#rlsw {
+  height: 200px;
+  float: left;
+  margin: 10px 100px;
+  padding: 20px;
+}
+
+#psyonix {
+  height: 310px;
+  float: right;
+  padding: 20px 100px;
+  margin: 10px 45px;
+}
+
+#epic {
+  height: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px 70px;
+}
+#rlcs {
+  height: 250px;
+  float: right;
+  padding: 20px 100px;
+  margin: 10px 80px;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+.branding {
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+ul li {
+  display: inline;
+}
+
+.navlist:hover {
+  color: rgb(0, 121, 219);
+}
+
+.navlist {
+  padding: 0 8px;
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+  transition: color 0.1s ease-in;
+}
+
+.navlist:hover {
+  color: rgb(0, 121, 219);
+}
+
+@media only screen and (max-width: 830px) {
+  .rlkep {
+    height: 90vh;
+  }
+  .rlkep2 {
+    height: 90vh;
+  }
+  .nav-link {
+    font-size: 4vw;
+  }
+  h1,
+  p {
+    padding: 1vw 5vw;
+  }
+  p {
+    font-size: 3vw;
+    padding: 0 50px;
+  }
+  h1 {
+    margin: 50px 10vw 30px;
+    font-size: 6vw;
+  }
+  .dot {
+    font-size: 50px;
+  }
+  #RLlogo {
+    height: 50vw;
+    margin: 10px 0;
+    padding: 0 30vw;
+  }
+  #rlsw {
+    height: 20vw;
+    margin: 10px 0;
+    padding: 0 30vw;
+  }
+  #psyonix {
+    height: 40vw;
+    margin: 10px 0;
+    padding: 0 34vw;
+  }
+  #epic {
+    height: 40vw;
+    margin: 10px 0;
+    padding: 0 23vw;
+  }
+  #rlcs {
+    height: 40vw;
+    margin: 10px 0;
+    padding: 0 29vw;
+  }
+  .playp {
+    font-size: 4vw;
+    margin-top: 30px;
+  }
+  .play {
+    padding: 10px;
+  }
+  .rlkep {
+    height: 600px;
+  }
+  .fejlec {
+    margin-top: 33vh;
+  }
+  #cim {
+    font-size: 10vw;
+  }
+  #also {
+    font-size: 4vw;
+  }
+  footer {
+    margin-top: 30px;
+  }
+  .branding {
+    font-size: 2.5vw;
+  }
+}
