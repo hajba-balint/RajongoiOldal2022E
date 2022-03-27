@@ -1,0 +1,87 @@
+body{
+    background-image: url('kepek/esportwin.jpg');
+    background-attachment: fixed;
+    padding: 5%;
+}
+.container{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    opacity: 1;
+    text-shadow: 2px 2px 5px black;
+}
+
+*.card:hover{
+    background-color: darkgrey;
+}
+.card-title{
+    text-align: center;
+    font-size: 250%;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 0.5s ease;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.h1{
+    text-transform: uppercase;
+    font-size: 80px !important;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+}
+.h2{
+    text-transform: uppercase;
+    font-size: 150px;
+    color: white;
+    margin-right: 1%;
+    text-align: right;
+}
+
+.card{
+    margin-top: 10%;
+    height: 500px;
+    opacity: 0.9;
+}
+.card-text{
+    font-size: 110%;
+    text-align: center;
+}
+.test{
+    height: 150px;
+    font-size: 100px;
+}
+.text{
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Fredoka', sans-serif;
+    text-shadow: 10px;
+    height: 820px;
+    opacity: 0.8;
+    margin: 20px;
+    color: white;
+    background-color: grey;
+    border-radius: 50px;
+    text-overflow: ellipsis;
+}
+.display-4{
+    text-align: center;
+}
+.h3{
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+.h4{
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+.img{
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
