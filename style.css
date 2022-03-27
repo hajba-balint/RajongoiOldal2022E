@@ -28,10 +28,10 @@ body{
 }
 .h1{
     text-transform: uppercase;
-    font-size: 100px !important;
+    font-size: 80px !important;
     color: white;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .h2{
     text-transform: uppercase;
@@ -51,7 +51,8 @@ body{
     text-align: center;
 }
 .test{
-    height: 100px;
+    height: 150px;
+    font-size: 100px;
 }
 .text{
     font-size: 30px;
@@ -64,6 +65,7 @@ body{
     color: white;
     background-color: grey;
     border-radius: 50px;
+    text-overflow: ellipsis;
 }
 .display-4{
     text-align: center;
@@ -82,3 +84,4 @@ body{
     border-radius: 20px;
     opacity: 0.8;
 }
+
