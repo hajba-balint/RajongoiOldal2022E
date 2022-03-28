@@ -250,6 +250,7 @@ input[type="radio"] {
 
 .card {
   cursor: default;
+}
 
 @media only screen and (max-width: 830px) {
   .rlkep {
@@ -339,4 +340,4 @@ input[type="radio"] {
   button.info {
     margin: auto;
   }
-}
+} 
