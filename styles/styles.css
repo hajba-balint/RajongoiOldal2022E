@@ -124,6 +124,7 @@ p {
   background-color: rgb(49, 155, 255);
   transition: color 0.1s ease-in;
   transition: background-color 0.1s ease-in;
+  border: 0;
 }
 
 .play:hover {
@@ -200,6 +201,29 @@ ul li {
   color: rgb(0, 121, 219);
 }
 
+h2 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#result {
+  margin: 70px 40vw;
+  padding: 10px;
+}
+
+form {
+  font-size: 25px;
+  text-align: center;
+}
+
+button.info {
+  margin: 0px 40vw 10px;
+}
+
 @media only screen and (max-width: 830px) {
   .rlkep {
     height: 90vh;
@@ -274,5 +298,18 @@ ul li {
   }
   .branding {
     font-size: 2.5vw;
+  }
+  h2 {
+    margin-top: 60px;
+    font-size: 5vw;
+  }
+  form {
+    font-size: 3.5vw;
+  }
+  #result {
+    font-size: 5vw;
+  }
+  button.info {
+    margin: auto;
   }
 }
