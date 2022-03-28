@@ -128,6 +128,7 @@ p {
   background-color: rgb(49, 155, 255);
   transition: color 0.1s ease-in;
   transition: background-color 0.1s ease-in;
+  border: 0;
 }
 
 .play:hover {
@@ -249,7 +250,6 @@ input[type="radio"] {
 
 .card {
   cursor: default;
-}
 
 @media only screen and (max-width: 830px) {
   .rlkep {
@@ -325,5 +325,18 @@ input[type="radio"] {
   }
   .branding {
     font-size: 2.5vw;
+  }
+  h2 {
+    margin-top: 60px;
+    font-size: 5vw;
+  }
+  form {
+    font-size: 3.5vw;
+  }
+  #result {
+    font-size: 5vw;
+  }
+  button.info {
+    margin: auto;
   }
 }
