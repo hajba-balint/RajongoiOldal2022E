@@ -23,7 +23,7 @@
     <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
 
     <!--JavaScript-->
-    <script src="/js/quiz.js"></script>
+    <script src="/javascript/"></script>
 </head>
 
 <body>
@@ -59,7 +59,72 @@
 
     <!--Szoveg-->
     <h1>Ha készen állsz, toltsd ki a kvízunket!</h1>
-    <p class="dot">[Insert Quiz]</p>
+    <form>
+        <div id="q1">
+            <h2>Mikor jelent meg a Rocket league?</h2>
+            <input type="radio" id="o11" value="1a" name="options1">
+            <label for="o11">2015</label><br>
+            <input type="radio" id="o12" value="0b" name="options1">
+            <label for="o12">2013</label><br>
+            <input type="radio" id="o13" value="0c" name="options1">
+            <label for="o13">2020</label><br>
+            <input type="radio" id="o14" value="0d" name="options1">
+            <label for="o14">2011</label><br>
+        </div>
+        <div id="q2">
+            <h2>Mi az SARPBC jelentése?</h2>
+            <input type="radio" id="o21" value="1e" name="options2">
+            <label for="o21">Supersonic Acrobatic Rocket-Powered Battle-Cars</label><br>
+            <input type="radio" id="o22" value="0f" name="options2">
+            <label for="o22">Supersonic Acrobatic Rocket-Powered Battle-Carts</label><br>
+            <input type="radio" id="o23" value="0g" name="options2">
+            <label for="o23">Super Acrobatic Rocket-Powered Battle-Cars</label><br>
+            <input type="radio" id="o24" value="0h" name="options2">
+            <label for="o24">Supersonic Acrobatic Rocket Power Battle-Cars</label><br>
+            <h2></h2>
+        </div>
+        <div id="q3">
+            <h2>Mikor alapították a Psyonixot?</h2>
+            <input type="radio" id="o31" value="1i" name="options3">
+            <label for="o31">2000</label><br>
+            <input type="radio" id="o32" value="0j" name="options3">
+            <label for="o32">2003</label><br>
+            <input type="radio" id="o33" value="0k" name="options3">
+            <label for="o33">1996</label><br>
+            <input type="radio" id="o34" value="0l" name="options3">
+            <label for="o34">1985</label><br>
+            <h2></h2>
+        </div>
+        <div id="q4">
+            <h2>Ki alapította a Psyonixot?</h2>
+            <input type="radio" id="o41" value="0q" name="options4">
+            <label for="o41">David Hagewood</label><br>
+            <input type="radio" id="o42" value="0w" name="options4">
+            <label for="o42">Dave Hagenwood</label><br>
+            <input type="radio" id="o43" value="1p" name="options4">
+            <label for="o43">Dave Hagewood</label><br>
+            <input type="radio" id="o44" value="0y" name="options4">
+            <label for="o44">Dave Hage</label><br>
+            <h2></h2>
+        </div>
+        <div id="q5">
+            <h2>Mikor vette meg őket az Epic Games</h2>
+            <input type="radio" id="o51" value="1x" name="options5">
+            <label for="o51">2019</label><br>
+            <input type="radio" id="o52" value="0n" name="options5">
+            <label for="o52">2016</label><br>
+            <input type="radio" id="o53" value="0v" name="options5">
+            <label for="o53">2021</label><br>
+            <input type="radio" id="o54" value="0m" name="options5">
+            <label for="o54">2004</label><br>
+            <h2></h2>
+        </div>
+        <div id="button2">
+            <button type="button" class="info play" onclick="counter()">Kiértékelés</button>
+        </div>
+        <h2 id="result"></h2>
+    </form>
+    <script src="/javascript/quiz.js"></script>
 
     <!--Footer-->
     <footer class="py-4 bg-dark text-white-50">
