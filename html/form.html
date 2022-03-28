@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
@@ -17,20 +17,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
     <!--CSS-->
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/../styles/styles.css">
 
     <!--Icon-->
-    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/../images/icon.png" type="image/x-icon">
 
     <!--JavaScript-->
-    <script src="/js/quiz.js"></script>
+    <script src="/../javascript/quiz.js"></script>
 </head>
 
 <body>
     <!--Navbar-->
     <nav class="navbar navbar-light navbar-expand-lg navbar-fixed-top fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand logo" href="/index.html">
-                <img src="/images/navlogo.png" alt="Rocket League" height="56px">
+        <div class="container"><a class="navbar-brand logo" href="/../index.html">
+                <img src="/../images/navlogo.png" alt="Rocket League" height="56px">
             </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
@@ -59,64 +59,64 @@
 
     <!--Szoveg-->
     <p class="dot">...</p>
-    <h1>Ha készen állsz, toltsd ki a kvízunket!</h1>
+    <h1>Ha készen állsz, töltsd ki a kvízunket!</h1>
     <form>
         <div id="q1">
             <h2>Mikor jelent meg a Rocket league?</h2>
-            <input type="radio" id="o11" value="1a" name="options1">
+            <input type="radio" id="o11" name="options1">
             <label for="o11">2015</label><br>
-            <input type="radio" id="o12" value="0b" name="options1">
+            <input type="radio" id="o12" name="options1">
             <label for="o12">2013</label><br>
-            <input type="radio" id="o13" value="0c" name="options1">
+            <input type="radio" id="o13" name="options1">
             <label for="o13">2020</label><br>
-            <input type="radio" id="o14" value="0d" name="options1">
+            <input type="radio" id="o14" name="options1">
             <label for="o14">2011</label><br>
         </div>
         <div id="q2">
             <h2>Melyik NEM egy játékmód?</h2>
-            <input type="radio" id="o21" value="0e" name="options2">
+            <input type="radio" id="o21" name="options2">
             <label for="o21">Dropshot</label><br>
-            <input type="radio" id="o22" value="0f" name="options2">
+            <input type="radio" id="o22" name="options2">
             <label for="o22">Hoops</label><br>
-            <input type="radio" id="o23" value="1g" name="options2">
+            <input type="radio" id="o23" name="options2">
             <label for="o23">Golf</label><br>
-            <input type="radio" id="o24" value="0h" name="options2">
+            <input type="radio" id="o24" name="options2">
             <label for="o24">Snow Day</label><br>
             <h2></h2>
         </div>
         <div id="q3">
             <h2>Melyik cég fejlesztette?</h2>
-            <input type="radio" id="o31" value="0i" name="options3">
+            <input type="radio" id="o31" name="options3">
             <label for="o31">Rockstar Games</label><br>
-            <input type="radio" id="o32" value="1j" name="options3">
+            <input type="radio" id="o32" name="options3">
             <label for="o32">Psyonix</label><br>
-            <input type="radio" id="o33" value="0k" name="options3">
+            <input type="radio" id="o33" name="options3">
             <label for="o33">Epic Games</label><br>
-            <input type="radio" id="o34" value="0l" name="options3">
+            <input type="radio" id="o34" name="options3">
             <label for="o34">Mojang</label><br>
             <h2></h2>
         </div>
         <div id="q4">
             <h2>Ki alapította a céget?</h2>
-            <input type="radio" id="o41" value="0q" name="options4">
+            <input type="radio" id="o41" name="options4">
             <label for="o41">Tim Sweeney</label><br>
-            <input type="radio" id="o42" value="0w" name="options4">
+            <input type="radio" id="o42" name="options4">
             <label for="o42">Mark Rein</label><br>
-            <input type="radio" id="o43" value="1p" name="options4">
+            <input type="radio" id="o43" name="options4">
             <label for="o43">Dave Hagewood</label><br>
-            <input type="radio" id="o44" value="0y" name="options4">
+            <input type="radio" id="o44" name="options4">
             <label for="o44">Sam Houser</label><br>
             <h2></h2>
         </div>
         <div id="q5">
             <h2>Ezek kozul melyik NEM egy autó a játékban?</h2>
-            <input type="radio" id="o51" value="0x" name="options5">
+            <input type="radio" id="o51" name="options5">
             <label for="o51">Venom</label><br>
-            <input type="radio" id="o52" value="0n" name="options5">
+            <input type="radio" id="o52" name="options5">
             <label for="o52">Octane</label><br>
-            <input type="radio" id="o53" value="0v" name="options5">
+            <input type="radio" id="o53" name="options5">
             <label for="o53">Road Hog</label><br>
-            <input type="radio" id="o54" value="1m" name="options5">
+            <input type="radio" id="o54" name="options5">
             <label for="o54">Tiger XT</label><br>
             <h2></h2>
         </div>
@@ -125,7 +125,7 @@
         </div>
         <h2 id="result"></h2>
     </form>
-    <script src="/javascript/quiz.js"></script>
+    <script src="/../javascript/quiz.js"></script>
 
     <!--Footer-->
     <footer class="py-4 bg-dark text-white-50">
