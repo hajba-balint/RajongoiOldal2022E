@@ -13,6 +13,11 @@ body::-webkit-scrollbar {
   height: 82px;
 }
 
+.na {
+  background-color: white;
+  text-align: center;
+}
+
 .nav-link {
   font-size: 20px;
   background-color: white;
@@ -36,8 +41,12 @@ body::-webkit-scrollbar {
   text-shadow: 2px 2px 5px black;
 }
 
+.card {
+  cursor: default;
+}
+
 *.card:hover {
-  background-color: darkgrey;
+  background-color: rgb(221, 221, 221);
 }
 .card-title {
   text-align: center;
