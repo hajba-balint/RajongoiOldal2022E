@@ -4,6 +4,10 @@ body {
   padding-top: 65px;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .navbar {
   font-family: Montserrat;
   height: 82px;
