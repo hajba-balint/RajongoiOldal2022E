@@ -2,7 +2,6 @@ body {
   background-image: url("/kepek/esportwin.jpg");
   background-attachment: fixed;
   padding-top: 65px;
-  background-position: center;
 }
 
 body::-webkit-scrollbar {
@@ -149,21 +148,4 @@ ul li {
 
 .navlist:hover {
   color: rgb(0, 121, 219);
-}
-
-.kep {
-  width: 500px;
-}
-
-@media only screen and (max-width: 990px) {
-  .kep {
-    width: 70vw;
-    height: auto;
-    max-width: 300px;
-  }
-}
-@media only screen and (max-width: 670px) {
-  h3.h3 {
-    font-size: 4vw;
-  }
 }
