@@ -90,19 +90,19 @@ p {
 }
 
 .rlkep {
-  background-image: url("/images/rlkep8.png");
+  background-image: url("../images/rlkep8.png");
 }
 
 .rlkep2 {
-  background-image: url("/images/rlkep0.jpg");
+  background-image: url("../images/rlkep0.jpg");
 }
 
 .rlkep3 {
-  background-image: url("/images/rlkep6.jpg");
+  background-image: url("../images/rlkep6.jpg");
 }
 
 .rlkep4 {
-  background-image: url("/images/rlkep4.jpg");
+  background-image: url("../images/rlkep4.jpg");
 }
 
 .container-fluid {
