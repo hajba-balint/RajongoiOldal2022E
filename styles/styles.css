@@ -90,19 +90,19 @@ p {
 }
 
 .rlkep {
-  background-image: url("/images/rlkep8.png");
+  background-image: url("../images/rlkep8.png");
 }
 
 .rlkep2 {
-  background-image: url("/images/rlkep0.jpg");
+  background-image: url("../images/rlkep0.jpg");
 }
 
 .rlkep3 {
-  background-image: url("/images/rlkep6.jpg");
+  background-image: url("../images/rlkep6.jpg");
 }
 
 .rlkep4 {
-  background-image: url("/images/rlkep4.jpg");
+  background-image: url("../images/rlkep4.jpg");
 }
 
 .container-fluid {
@@ -209,14 +209,6 @@ ul li {
   overflow: hidden;
 }
 
-.inner img {
-  transition: all 0.5s ease;
-}
-
-.card-img-top:hover {
-  transform: scale(1.1);
-}
-
 .card-title {
   text-align: center;
   font-size: 220%;
@@ -244,10 +236,6 @@ ul li {
   text-align: center;
 }
 
-.card {
-  cursor: default;
-}
-
 h2 {
   margin-top: 80px;
   margin-bottom: 20px;
@@ -271,8 +259,24 @@ button.info {
   margin: 0px 40vw 10px;
 }
 
-input[type='radio'] { 
+input[type="radio"] {
   transform: scale(1.3);
+}
+
+.card {
+  cursor: default;
+  transition: all 0.1s ease-out;
+  margin: 1vw;
+}
+
+*.card:hover {
+  background-color: rgb(221, 221, 221);
+  transform: scale(1.08);
+  transition: all 0.1s ease-in;
+}
+
+.icon {
+  width: 45px;
 }
 
 @media only screen and (max-width: 830px) {
@@ -298,7 +302,7 @@ input[type='radio'] {
     font-size: 6vw;
   }
   .dot {
-    font-size: 50px;
+    font-size: 12vw;
   }
   #RLlogo {
     height: 50vw;
@@ -363,4 +367,4 @@ input[type='radio'] {
   button.info {
     margin: auto;
   }
-} 
+}
