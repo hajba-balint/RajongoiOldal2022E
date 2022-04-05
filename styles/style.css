@@ -154,6 +154,7 @@ ul li {
   color: rgb(0, 121, 219);
 }
 
+
 @media only screen and (min-width: 992px) {
 .kep {
   width: 110% !important;
@@ -185,3 +186,6 @@ ul li {
     font-size: 5vw !important;
   }
 }
+
+
+
