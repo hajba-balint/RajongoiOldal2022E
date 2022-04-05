@@ -1,5 +1,5 @@
 body {
-  background-image: url("/kepek/esportwin.jpg");
+  background-image: url("../kepek/esportwin.jpg");
   background-attachment: fixed;
   padding-top: 65px;
 }
@@ -43,27 +43,28 @@ body::-webkit-scrollbar {
 
 .card {
   cursor: default;
+  transition: all 0.1s ease-out;
 }
 
 *.card:hover {
   background-color: rgb(221, 221, 221);
+  transform: scale(1.08);
+  transition: all 0.1s ease-in;
 }
 .card-title {
   text-align: center;
-  font-size: 250%;
+  font-size: 200%;
 }
 .inner {
   overflow: hidden;
 }
-.inner img {
-  transition: all 0.5s ease;
-}
-.card-img-top:hover {
-  transform: scale(1.1);
-}
+
 .h1 {
+  padding: 10px;
+  margin: 50px auto;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-transform: uppercase;
-  font-size: 80px !important;
+  font-size: 70px !important;
   color: white;
   text-align: center;
   opacity: 0.9;
@@ -77,8 +78,8 @@ body::-webkit-scrollbar {
 }
 
 .card {
-  margin-top: 10%;
   height: 500px;
+  margin-top: 10%;
   opacity: 0.9;
 }
 .card-text {
@@ -103,9 +104,12 @@ body::-webkit-scrollbar {
   text-overflow: ellipsis;
 }
 .display-4 {
+  font-size: 130%;
+  margin-top: 15px;
   text-align: center;
 }
 .h3 {
+  font-size: 75%;
   text-indent: 20px;
   text-align: justify;
   padding: 10px;
@@ -150,20 +154,38 @@ ul li {
   color: rgb(0, 121, 219);
 }
 
+
+@media only screen and (min-width: 992px) {
 .kep {
-  width: 500px;
-  margin: auto;
+  width: 110% !important;
+}
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 991px) {
   .kep {
-    width: 70vw;
+    width: 100% !important;
+    border: 0 50vw none;
+    width: auto;
     height: auto;
-    max-width: 300px;
   }
 }
-@media only screen and (max-width: 670px) {
-  h3.h3 {
-    font-size: 4vw;
+
+@media only screen and (max-width: 767px) {
+.card {
+  height: fit-content !important;
+  margin: 20px 30px;
+}
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 7vw !important;
+  }
+
+  h3 {
+    font-size: 5vw !important;
   }
 }
+
+
+
