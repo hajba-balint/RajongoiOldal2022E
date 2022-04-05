@@ -1,0 +1,30 @@
+[
+  {
+    "_id": 1,
+    "locationName": "Baja-Pörböly"
+  },
+  {
+    "_id": 2,
+    "locationName": "Budapest"
+  },
+  {
+    "_id": 3,
+    "locationName": "Budapest-Dunakeszi"
+  },
+  {
+    "_id": 4,
+    "locationName": "Budapest-Szigetszentmiklós"
+  },
+  {
+    "_id": 5,
+    "locationName": "Dunaföldvár-Solt"
+  },
+  {
+    "_id": 6,
+    "locationName": "Dunaújváros-Dunavecse"
+  },
+  {
+    "_id": 7,
+    "locationName": "Szekszárd-Dusnok"
+  }
+]
