@@ -1,30 +1,38 @@
 [
   {
     "_id": 1,
-    "locationName": "Baja-Pörböly"
+    "teamName": "Team Vitality"
   },
   {
     "_id": 2,
-    "locationName": "Budapest"
+    "teamName": "Dignitas"
   },
   {
     "_id": 3,
-    "locationName": "Budapest-Dunakeszi"
+    "teamName": "Team BDS"
   },
   {
     "_id": 4,
-    "locationName": "Budapest-Szigetszentmiklós"
+    "teamName": "Team Liquid"
   },
   {
     "_id": 5,
-    "locationName": "Dunaföldvár-Solt"
+    "teamName": "Team Endpoint"
   },
   {
     "_id": 6,
-    "locationName": "Dunaújváros-Dunavecse"
+    "teamName": "Solary"
   },
   {
     "_id": 7,
-    "locationName": "Szekszárd-Dusnok"
+    "teamName": "Guild Esports"
+  }
+	{
+    "_id": 8,
+    "teamName": "Oxygen"
+  }
+{
+    "_id": 9,
+    "teamName": "Alpine"
   }
 ]
