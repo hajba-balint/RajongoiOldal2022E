@@ -1,4 +1,4 @@
-# RajongoiOldal2022E
+# RajongoiOldal2022E(https://hajba-balint.github.io/RajongoiOldal2022E/)
 
 - Rajongás tárgya: Rocket League
 
