@@ -4,7 +4,7 @@
       "description": "A Team Vitality egy francia esport szervezet, amelynek csapatai a Rocket League-ben versenyeznek.",
       "isEurope": true,
       "managementSize": 10,
-      "location": "France",
+      "location": "1",
       "creationDate": "2013-01-01",
       "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/vitality.png"
     },
@@ -13,7 +13,7 @@
       "description": "A Dignitas egy amerikai esport szervezet, jelenleg egy Európai Rocket League csapatot indít.",
       "isEurope": true,
       "managementSize": 10,
-      "location": "USA",
+      "location": "2",
       "creationDate": "2003-09-01",
       "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/dignitas.png"
     },"_id": 3,
@@ -21,7 +21,7 @@
       "description": "A Team BDS egy svájci esport szervezet, amelynek székhelye Genfben található.",
       "isEurope": true,
       "managementSize": 10,
-      "location": "Switzerland",
+      "location": "3",
       "creationDate": "2019-01-01",
       "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/team-bds.png"
     },"_id": 4,
@@ -29,7 +29,7 @@
       "description": "A Team Liquid egy multi-gaming team, amelyet 2000-ben alapítottak Hollandiában",
       "isEurope": true,
       "managementSize": 10,
-      "location": "Netherlands",
+      "location": "4",
       "creationDate": "2000-01-01",
       "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/team-liquid.jpg"
     },"_id": 5,
@@ -37,7 +37,7 @@
       "description": "A Team Endpoint egy 2016-ban alapított brit multi-gaming team.",
       "isEurope": true,
       "managementSize": 10,
-      "location": "UK",
+      "location": "5",
       "creationDate": "2016-08-01",
       "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/team-endpoint.png"
     },"_id": 6,
@@ -45,7 +45,7 @@
       "description": "A Solary egy francia szervezet, amelynek székhelye Toursban található.",
       "isEurope": true,
       "managementSize": 8,
-      "location": "France",
+      "location": "6",
       "creationDate": "2017-01-01",
       "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/solary.png"
     },"_id": 7,
@@ -53,7 +53,7 @@
       "description": "A Guild Esports PLC (korábban The Lords Esports) egy 2019-ben alapított, egyesült királyságbeli székhelyű professzionális esport cég.",
       "isEurope": true,
       "managementSize": 10,
-      "location": "UK",
+      "location": "5",
       "creationDate": "2020-06-01",
       "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/oxygen-esports.jpg"
     },"_id": 8,
@@ -61,7 +61,7 @@
       "description": "Az Oxygen Esports (rövidítve OXG) egy amerikai professzionális esport szervezet, amely jelenleg Új-Angliában található.",
       "isEurope": true,
       "managementSize": 9,
-      "managementlocation": "USA",
+      "location": "2",
       "creationDate": "2020-01-01",
       "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/oxygen-esports.jpg"
     },"_id": 9,
@@ -69,7 +69,7 @@
       "description": "A Torrent (korábbi nevén Alpine Esports) egy amerikai esport szervezet",
       "isEurope": false,
       "managementSize": 7,
-      "location": "USA",
+      "location": "2",
       "creationDate": "2019-01-01",
       "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/alpine.png"
     },
