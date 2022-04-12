@@ -7,7 +7,7 @@
       "managementSize": 10,
       "location": "1",
       "creationDate": "2013-01-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/vitality.jpg"
+      "pictureUrl": "http://elit.jedlik.eu/nits/RL/vitality.jpg"
     },
     {  
    "_id": 2,
@@ -17,7 +17,7 @@
       "managementSize": 10,
       "location": "2",
       "creationDate": "2003-09-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/dignitas.jpg"
+      "pictureUrl": "http://elit.jedlilk.eu/nits/RL/dignitas.jpg"
     },
     {  
       "_id": 3,
@@ -27,7 +27,7 @@
       "managementSize": 10,
       "location": "3",
       "creationDate": "2019-01-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/team-bds.jpg"
+      "pictureUrl": "http://elit.jedlik.eu/nits/RL/team-bds.jpg"
     },
     {
       "_id": 4,
@@ -37,7 +37,7 @@
       "managementSize": 10,
       "location": "4",
       "creationDate": "2000-01-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/team-liquid.jpg"
+      "pictureUrl": "http://elit.jedlik.eu/nits/RL/team-liquid.jpg"
     },
     {
       "_id": 5,
@@ -47,7 +47,7 @@
       "managementSize": 10,
       "location": "5",
       "creationDate": "2016-08-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/team-endpoint.jpg"
+      "pictureUrl": "http://elit.jedlik.eu/nits/RL/team-endpoint.jpg"
     },
     {
       "_id": 6,
@@ -57,7 +57,7 @@
       "managementSize": 8,
       "location": "6",
       "creationDate": "2017-01-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/solary.jpg"
+      "pictureUrl": "http://elit.jedlik.eu/nits/RL/solary.jpg"
     },
     {
       "_id": 7,
@@ -67,7 +67,7 @@
       "managementSize": 10,
       "location": "5",
       "creationDate": "2020-06-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/guild-esports.jpg"
+      "pictureUrl": "http://elit.jedlik.eu/nits/RL/guild-esports.jpg"
     },
     {  
       "_id": 8,
@@ -77,7 +77,7 @@
       "managementSize": 9,
       "location": "2",
       "creationDate": "2020-01-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/oxygen-esports.jpg"
+      "pictureUrl": "http://elit.jedlik.eu/nits/RL/oxygen-esports.jpg"
     },
     {
       "_id": 9,
@@ -87,7 +87,7 @@
       "managementSize": 7,
       "location": "2",
       "creationDate": "2019-01-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/alpine.jpg"
+      "pictureUrl": "http://elit.jedlik.eu/nits/RL/alpine.jpg"
     },
     {
       "_id": 10,
@@ -97,6 +97,6 @@
       "managementSize": 10,
       "location": "2",
       "creationDate": "2019-01-01",
-      "pictureUrl": "https://hajba-balint.github.io/RajongoiOldal2022E/kepek/envy.jpg"
+      "pictureUrl": "http://elit.jedlik.eu/nits/RL/envy.jpg"
     }
   ]
