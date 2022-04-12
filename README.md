@@ -1,34 +1,29 @@
-# RajongoiOldal2022E(https://hajba-balint.github.io/RajongoiOldal2022E/)
+# RajongoiOldal2022E
 
+- https://hajba-balint.github.io/RajongoiOldal2022E/
 - Rajongás tárgya: Rocket League
 
-# Névjegy
+# Oldalak:
 
-- Bootstrap reszponzív rács kialakítása
-- Képeket a tagokról belehelyezni a rácsba
-- Iskolai e-mail címet belehelyezni a rácsba
-- Tag által végzett munkák leírása
+## Index.html
+- Játék rövid leírása
+- Mobilos változat
+- Letöltési gombok
 
-# Cég és Játék
+## Game.html
+- Játék története
+- Elődje
+- Rövid bevezető az Esportról
 
-- Cég története
-- Játék elődje, mobilos változat
-- Játék leirás
-- Kevés esport
+## Esport.html
+- Esport története
+- Rendezvények
+- Csapatok kártyákkal
 
-# Start Page
+## Form.html
+- Kvíz az eddigi tartalomról
+- Javascript ellenőrzés
 
-- Játék alapjai
-- Sideswipe
-- Képek
-
-# Kvíz
-
-- Játékkal kapcsolatos kérdések
-- Javascript használata
-
-# E-sport
-
-- Csapatok
-- Népszerűség
-- Múltbeli események
+## About.html
+- Készítők kártyákkal
+- Githubra vezető ikonok
